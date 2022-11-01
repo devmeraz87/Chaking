@@ -18,7 +18,6 @@
 }
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   ._default_container {
-    max-width: 90%;
     padding: 0 1.5rem;
   }
 }
@@ -291,6 +290,17 @@
     font-size: 36px !important;
     padding: 0 0.5rem;
   }
+  ._about ._about_doctor ._img_container {
+    height: 100px !important;
+    width: 100px !important;
+    padding: 0 !important;
+  }
+  ._about ._about_doctor ._img_container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   ._about ._about_doctor ._about_context ._name {
     font-size: 20px !important;
   }
@@ -320,7 +330,7 @@
     background-position: -600px !important;
   }
   ._horizontal_scroll ._horizontal_scroll_container_panel {
-    width: 550vw;
+    width: 780vw;
   }
   ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 {
     padding: 3.5rem 4rem 3.5rem 6rem;

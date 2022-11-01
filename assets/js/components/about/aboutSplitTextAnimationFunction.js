@@ -40,7 +40,7 @@ gsap.from(aboutSplitTextChar, {
         trigger: "._about_content",
         start: "top 80%",
         end: "+=800",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
@@ -67,7 +67,7 @@ gsap.set("#myDetailsSplitTextt", { perspective: 800 });
 gsap.from(myDetailsSplitTextChar, {
     scrollTrigger: {
         trigger: "._details",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
@@ -93,7 +93,7 @@ gsap.set("#aboutVideoSplitText", { perspective: 800 });
 gsap.from(aboutSectionSplitTextChar, {
     scrollTrigger: {
         trigger: "._video_thumb",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
@@ -119,7 +119,7 @@ gsap.from(experienceSectionSplitTextChar, {
     scrollTrigger: {
         trigger: "#experienceSectionSplitText",
         end: "+=500",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
@@ -142,7 +142,7 @@ gsap.set("#experienceSectionSplitText2", { perspective: 800 });
 gsap.from(experienceSectionSplitTextChar2, {
     scrollTrigger: {
         trigger: ".collapsible",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
@@ -171,7 +171,7 @@ gsap.from(wrapperImgSectionSplitTextChar, {
         trigger: ".wrapper_img_card_content",
         start: "top 70%",
         end: "+=1000",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
