@@ -1,0 +1,171 @@
+._horizontal_scroll_container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+  
+._horizontal_scroll_container_panel, ._horizontal_scroll_container_first_panel_ {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+
+    &.panel-1 {
+        background-color: red;
+        transform: scale(2) translateY(244px);
+    }
+
+    &.panel-2 {
+        background-color: rgb(255, 250, 241);
+        width: 273vw;
+        height: 100%;
+        overflow: hidden;
+
+
+        ._figure {
+            height: 100%;
+            
+            &._figure_1 {
+                padding: 6rem 6rem 6rem 10rem;
+
+                ._firstImg {
+                    height: 100%;
+    
+                    img {
+                        height: 100%;
+                    }
+                }
+            }
+
+            &._figure_2 {
+                position: relative;
+                width: 200px;
+                display: block !important;
+
+                .marquee {
+                    display: flex;
+                    flex-shrink: 0;
+                    transform: rotate(-90deg) translateX(-1000px);
+
+                    span {
+                        display: flex;
+                        flex-shrink: 0;
+                        font-size: 150px;
+                        font-family: "Prata";
+                        text-transform: uppercase;
+                        white-space: pre-wrap;
+                    }
+                }
+               
+            }
+
+            &._figure_3 {
+                display: flex;
+
+                ._top_img {
+                    padding: 6rem 8rem 6rem 6rem;
+                    max-width: 900px;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        vertical-align: middle;
+                    }
+
+                    ._lead {
+                        font-family: "Poppins";
+                    }
+                }
+
+                ._bottom_img {
+                    padding: 6rem 6rem 6rem 8rem;
+                    max-width: 1000px;
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        vertical-align: middle;
+                    }
+
+                    ._lead {
+                        font-family: "Poppins";
+                    }
+                }
+
+                ._center_2_img {
+                    position: relative;
+                    padding: 6rem 12rem 6rem 12rem;
+
+                    ._center_2_img_parent {
+                        height: 100%;
+
+                        img {
+                            height: 100%;
+                        }
+                    }
+
+                    ._center_2_img_child {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(52%, -50%);
+                        max-width: 300px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                ._center_video {
+                    margin-left: 17rem;
+                    margin-right: 16rem;
+                    
+
+                    ._video {
+                        position: relative;
+                        max-width: 900px;
+
+                        video {
+                            width: 100%;
+                        }
+
+                        ._video_play_button {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            user-select: none;
+
+                            img {
+                                width: 60%;
+                                transform: translateX(35%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.panel-3 {
+        background-color: gray;
+    }
+
+    &-4 {
+        background-color: aqua;
+    }
+
+    &-5 {
+        background-color: green;
+    }
+}

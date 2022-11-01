@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::before, &::after {
+        box-sizing: border-box;
+    }
+
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'prata';
+    src: url("../font/prata/Prata-Regular.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../font/poppins/Poppins-Regular.otf);
+    font-style: normal
+}
+
+
+::-webkit-scrollbar {
+    display: none
+}
+
+
+._default_container {
+    max-width: 1424px;
+    margin:  0 auto;
+}
+
+
+
+@import "./components/about/about";
+@import "./components/lipo/lipo";
+
+@import "./components/splitText/splitText";
+
+
+@import "./components/mouseFollower";
+@import "./components/loading";
+
+// >> offcanva
+@import "./components/offcanva";
+
+// >> Nav
+@import "./components/nav";
+
+// >> Hero
+@import "./components/hero";
+
+// >> About section
+@import "./components/about";
+
+@import "./components/section_1";
+@import "./components/section_2";
+@import "./components/marquee_effect";
+@import "./components/horizontal_scroll_container";
+@import "./components/section_about_doctor";
+@import "./components/section_testimonials";
+@import "./components/section_roulino";
+@import "./components/footer";

@@ -1,0 +1,62 @@
+._hero {
+    position: relative;
+    height: 100vh;
+    background-color: rgba(26, 26, 26, 0.172);
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    
+
+    ._hero_content {
+        text-align: center;
+
+        ._section_title {
+            font-size: 20px;
+            margin-top: 5rem;
+        }
+
+        ._section_heading {
+            font-size: 70px;
+            margin-bottom: 2rem;
+            font-family: "prata";
+        }
+
+        ._section_lead {
+            font-size: 20px;
+            margin-bottom: 3rem;
+            font-family: "poppins";
+        }
+
+        ._button_container {
+           margin-bottom: 6rem;
+            ._button {
+                border: 1px solid #fff;
+                padding: 0.75rem 2.5rem;
+                text-transform: uppercase;
+                border-radius: 50px;
+                font-family: "poppins";
+                font-weight: 500;
+            }
+        }
+
+        ._circle_logo_selo {
+
+            img {
+                height: 80%;
+                animation: _circle infinite;
+                animation-duration: 15s;
+
+                // @keyframes _circle {
+                //     100% {
+                //         transform: rotate(360deg);
+                //     }
+                // }
+            }
+        }
+    }
+}

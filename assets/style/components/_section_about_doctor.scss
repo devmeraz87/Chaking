@@ -1,0 +1,41 @@
+._section_about_doctor {
+
+    ._context {
+
+        ._section_about_title {
+            margin-bottom: 1.5rem;
+        }
+
+        ._section_heading {
+            font-size: 65px;
+            font-family: "prata";
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+
+        ._counters {
+            margin-bottom: 1rem;
+            ._counter {
+                font-family: "poppins";
+                white-space: pre-wrap;
+
+                ._counter_number {
+                    font-size: 65px;
+                    font-family: "prata";
+                }
+            }
+        }
+
+        ._about_doctor_buttons {
+
+            a {
+                display: inline-block;
+                border: 1px solid;  
+                padding: 0.75rem 1.75rem;
+                border-radius: 50px;
+                font-size: 14px;
+                user-select: none;
+            }
+        }
+    }
+}

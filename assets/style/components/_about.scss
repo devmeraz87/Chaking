@@ -1,0 +1,34 @@
+._about {
+
+
+    ._about_content {
+        text-align: center;
+
+        ._about_title {
+            font-size: 20px;
+            margin-bottom: 2rem;
+        }
+
+        ._about_heading {
+            font-size: 55px;
+            margin-bottom: 2rem;
+            font-family: "prata";
+            line-height: 1.3;
+        }
+
+        ._about_doctor {
+
+            ._about_context {
+                ._name {
+                    font-size: 32px;
+                    font-family: "prata";
+                }
+
+                ._lead {
+                    font-family: "poppins";
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

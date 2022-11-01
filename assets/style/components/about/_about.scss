@@ -1,0 +1,160 @@
+._hero {
+
+
+    ._hero_content {
+
+        ._about_heading {
+            font-size: 76px;
+
+            // if(max-w-screen-2xl) {
+                // font-size: 86px;
+            // }
+
+            font-family: "prata";
+            line-height: 1.2;
+        }
+
+
+    }
+}
+
+
+
+// >> My details
+._my_details {
+
+    ._my_details_context {
+
+        ._details {
+            margin-left: 3rem;
+
+            ._my_details_title {
+                font-family: "poppins";
+                margin-bottom: 2rem;
+            }
+
+            ._my_details_heading {
+                font-size: 55px;
+                font-family: "prata";
+                margin-bottom: 2rem;
+            }
+
+            ._lead {
+                font-family: "poppins";
+                line-height: 2;
+                font-size: 17px;
+            }
+
+            .my_details_btn {
+                display: inline-block;
+                padding: 0.5rem 1.5rem;
+                border: 1px solid;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+
+// >> about video
+._about_video {
+
+    ._about_video_context {
+        
+        ._video_thumb {
+
+            ._video_context {
+
+                ._video_context_heading {
+                    font-size: 65px;
+                    font-family: "prate";
+                    text-align: center;
+                    margin-bottom: 3rem;
+                    color: #fff;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+._Experience {
+
+    ._experience_content_header {
+
+        ._title {
+            font-family: "poppins";
+        }
+
+        ._experience_content_heading {
+            font-size: 55px;
+            font-family: "prata";
+        }
+    }
+
+    ._collaps {
+
+        .collapsible {
+
+            .accordion_content {
+                border-top: 1px solid #d88f74;
+
+                &:last-child {
+                    border-bottom: 1px solid #d88f74;
+                }
+
+                .collapsible-header {
+                    padding: 30px 0;
+                    font-family: "poppins";
+                    font-size: 22px;
+                    cursor: pointer;
+
+                    i {
+                        color: #d88f74;
+                       
+                        svg {
+                            height: 30px;
+                            width: 30px;
+                        }
+
+                        &._minas_icon {
+                            display: none;
+                        }
+                    }
+                }
+                
+                .collapsible-body {
+                    height: 0;
+                    transition: 0.3s;
+                    overflow: hidden;
+                    opacity: 0;
+
+                    &.open_ {
+                        margin-bottom: 3rem;
+                        opacity: 1;
+                    }
+                }
+
+                &.open {
+
+                    .collapsible-header {
+
+                        ._minas_icon {
+                            display: flex;
+                        }
+
+                        ._plus_icon {
+                            display: none;
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+}
+
+

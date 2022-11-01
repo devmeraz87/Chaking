@@ -1,0 +1,41 @@
+._wrapper_name_logo {
+    position: relative;
+    z-index: 99999999;
+}
+
+._first, ._second {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  ._first {
+    background-color: #15151d;
+    z-index: 1;
+  }
+  ._first ._first_content {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-family: "parata";
+  }
+  
+  ._second {
+    background-color: #9a8a68;
+    z-index: -1;
+  }
+  ._second ._second_content {
+
+    img {
+        min-width: 500px;
+        height: auto;
+    }
+  }

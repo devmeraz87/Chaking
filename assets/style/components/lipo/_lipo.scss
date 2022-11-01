@@ -1,0 +1,269 @@
+._ultra_hd_ugraft {
+
+    ._ultra_hd_ugraft_content {
+
+
+        ._ultra_hd_ugraft_section_header {
+
+            ._ultra_hd_title  {
+                font-family: "poppins";
+            }
+
+            ._ultra_hd_heading {
+                font-family: "prata";
+                font-size: 55px;
+            }
+        }
+
+        ._ultra_hd_about {
+            margin-left: 5rem;
+        
+            ._title {
+                font-family: "poppins";
+                font-size: 19px;
+                font-weight: 100;
+            }
+
+            ._heading {
+                font-size: 65px;
+                font-family: "prata";
+            }
+
+            ._lead {
+                font-family: "poppins";
+                font-size: 19px;
+                font-weight: 100;
+            }
+
+
+            ._ultra_hb_btn {
+                border: 1px solid;
+                padding: 0.75rem 1.5rem;
+                border-radius: 30px;
+                font-family: "poppins";
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+._lipo_gallery {
+
+    img {
+        vertical-align: middle;
+    }
+}
+
+
+
+
+
+// >> Lipo Carosuel / 
+/* // >> carousel container  / */
+._section_carousel_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+ }
+ 
+ 
+ 
+ ._section_carousel {
+
+    ._lipo_carousel_header {
+        ._title {
+            font-family: "poppins";
+            margin-bottom: 1.5rem;
+        }
+
+        ._heading {
+            font-size: 50px;
+            font-family: "prata";
+        }
+    }
+
+     .carousel_indicator {
+        display: flex;
+        margin-bottom: 1.5rem;      
+        margin-right: 20px;
+        box-shadow: 0 0.15rem 0  #9e774a;
+    
+        .carousel_dot {
+            flex: 1;
+            border: none;
+            padding: 0.2rem;
+            padding-top: 0.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 25px;
+            font-family: "prata";
+            text-align: center;
+            color: #9e774a;
+    
+            &.carousel_dot__active {
+                color: #dabe9e;
+                background-color: #9e774a;
+            }
+        }
+    }
+ }
+ 
+ .carousel_control {
+    bottom: 50px;
+    right: 20px;
+    position: absolute;
+    z-index: 11;
+ 
+    .carousel_button {
+       background-color: transparent;
+       border: none;
+       cursor: pointer;
+ 
+       svg {
+          height: 50px;
+          width: 50px;
+          color: #9e774a;
+       }
+    }
+ }
+ 
+ 
+ 
+ /* carousel */
+ .carousel{
+    position: relative;
+ }
+ 
+ .carousel_inner{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+ }
+ 
+ .carousel_inner::after{
+    content: "";
+    display: block;
+    clear: both;
+ }
+ 
+ .carousel_item{
+    position: relative;
+    float: left;
+    display: none;
+    width: 100%;
+    margin-right: -100%;
+ }
+ 
+ /* slide effect */
+ .carousel_item__active,
+ .carousel_item__pos_prev,
+ .carousel_item__pos_next{
+    display: block;
+ }
+ 
+ .carousel_item__pos_prev{
+    left: -100%;
+ }
+ 
+ .carousel_item__pos_next{
+    left: 100%;
+ }
+ 
+ .carousel_item__prev{
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+ }
+ 
+ .carousel_item__next{
+    transform: translateX(-100%);
+    transition: transform .5s ease-in-out;
+ }
+ 
+ /* fade effect */
+ .carousel__fade .carousel_item__pos_prev,
+ .carousel__fade .carousel_item__pos_next{
+    left: 0;
+    opacity: 0;
+ }
+ 
+ .carousel__fade .carousel_item__prev,
+ .carousel__fade .carousel_item__next{
+    transform: none;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+ }
+ 
+ .carousel__fade .carousel_item__active.carousel_item__prev,
+ .carousel__fade .carousel_item__active.carousel_item__next{
+    opacity: 0;
+ }
+ 
+ /* carousel */
+ .carousel_img{
+    display: block;
+    width: 80%;
+ }
+ 
+ .carousel_caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 4rem;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+ 
+ }
+ 
+ .carousel_caption .carousel_caption_content {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    background-color: #fff;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.096);
+    padding: 4rem 3rem;
+    box-sizing: border-box;
+    max-width: 410px;
+    text-align: start;
+
+
+    .craousel_heading {
+        font-family: "prata";
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 0.75rem;
+    }
+
+    .carousel_lead {
+        font-family: "poppins";
+        color: #333;
+        margin-bottom: 1.5rem;
+    }
+
+    .carousel_btn {
+        display: inline-block;
+        padding: 0.4rem 1.5rem;
+        border: 1px solid #333;
+        border-radius: 30px;
+        text-transform: uppercase;
+        color: #333;
+    }
+ }
+ 
+ 
+ 
+ 
+ 
+ .carousel_title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+ }
