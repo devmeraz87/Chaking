@@ -45,7 +45,7 @@ gsap.set("#aboutSplitText", { perspective: 800 });
 gsap.from(aboutSplitTextChar, {
     scrollTrigger: {
         trigger: "._about_content",
-        markers: true,
+        // markers: true,
     },
 
     duration: 0.5,
@@ -73,7 +73,7 @@ gsap.from(marqueeSplitTextChar, {
     trigger: "#marqueeSplitText",
     start: "top 70%",
     end: "+=500",
-    markers: true,
+    // markers: true,
     // scrub: true
   },
 
@@ -102,7 +102,7 @@ gsap.from(videoSectionSplitTextChar, {
     trigger: "#video_section_marquee_text",
     start: "top 80%",
     end: "+=500",
-    markers: true,
+    // markers: true,
     // scrub: true
   },
 
@@ -131,7 +131,7 @@ gsap.from(aboutDoctorSectionSplitTextChar, {
     trigger: "._section_about_doctor",
     start: "top 80%",
     end: "+=800",
-    markers: true,
+    // markers: true,
     // scrub: true
   },
 
