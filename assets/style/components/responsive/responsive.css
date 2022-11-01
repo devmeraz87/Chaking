@@ -1,1 +1,438 @@
-/*# sourceMappingURL=responsive.css.map */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  ._default_container {
+    max-width: 1366px;
+    padding: 0 1.5rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  ._default_container {
+    max-width: 1180px;
+    padding: 0 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  ._default_container {
+    max-width: 980px;
+    padding: 0 1.5rem;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  ._default_container {
+    max-width: 90%;
+    padding: 0 1.5rem;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+  ._header ._logo a ._js_navLogo {
+    width: 190px;
+  }
+  ._hero ._section_heading {
+    font-size: 60px !important;
+  }
+  ._hero ._section_lead {
+    font-size: 17px !important;
+  }
+  ._about ._about_heading {
+    font-size: 50px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content {
+    font-size: 200px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_top {
+    top: 0 !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_bottom {
+    top: -370px !important;
+  }
+  ._marquee_section .wrapper_img_card .wrapper_img_card_content ._heading {
+    font-size: 55px !important;
+  }
+  ._section_2 ._section_card_heading {
+    font-size: 55px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_first_panel_ {
+    transform: scale(2.2) translateY(268px) !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel {
+    width: 345vw;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 {
+    padding: 5rem 5rem 5rem 8rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 ._firstImg img {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_2 .marquee ._gsap_marquee {
+    font-size: 120px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img {
+    padding: 4rem 6rem 4rem 4rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img img {
+    width: 600px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img {
+    padding: 5rem 8rem 5rem 8rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img ._center_2_img_parent {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video {
+    margin-right: 8rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video {
+    width: 1000px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video video {
+    width: 1000px;
+  }
+  ._section_about_doctor ._doctor_img_container {
+    flex: 1.5 !important;
+  }
+  ._section_about_doctor ._context ._section_heading {
+    font-size: 55px !important;
+  }
+  ._section_about_doctor ._context ._counters ._counter_number {
+    font-size: 50px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  ._header ._logo a ._js_navLogo {
+    width: 190px;
+  }
+  ._hero ._section_heading {
+    font-size: 60px !important;
+  }
+  ._hero ._section_lead {
+    font-size: 17px !important;
+  }
+  ._about ._about_heading {
+    font-size: 50px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content {
+    font-size: 165px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_top {
+    top: 50px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_bottom {
+    top: -350px !important;
+  }
+  ._marquee_section .wrapper_img_card {
+    background-position: -400px !important;
+  }
+  ._marquee_section .wrapper_img_card .wrapper_img_card_content ._heading {
+    font-size: 55px !important;
+  }
+  ._section_2 ._section_card_heading {
+    font-size: 42px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel {
+    width: 442vw;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 {
+    padding: 3.5rem 4rem 3.5rem 6rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 ._firstImg img {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_2 .marquee ._gsap_marquee {
+    font-size: 105px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img {
+    padding: 3.5rem 5rem 3.5rem 4rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img img {
+    width: 600px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img {
+    padding: 3.5rem 6rem 3.5rem 6rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img ._center_2_img_parent {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video {
+    margin-right: 8rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video {
+    width: 900px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video video {
+    width: 900px;
+  }
+  ._section_about_doctor ._doctor_img_container {
+    flex: 2.5 !important;
+  }
+  ._section_about_doctor ._doctor_img_container ._doctor_img {
+    transform: translateX(55px);
+  }
+  ._section_about_doctor ._context ._section_heading {
+    font-size: 50px !important;
+  }
+  ._section_about_doctor ._context ._counters ._counter_number {
+    font-size: 45px !important;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  ._header ._logo a ._js_navLogo {
+    width: 130px;
+  }
+  ._hero {
+    background-position: -600px !important;
+  }
+  ._hero ._section_heading {
+    font-size: 46px !important;
+  }
+  ._hero ._section_lead {
+    font-size: 16px !important;
+  }
+  ._about ._about_heading {
+    font-size: 36px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content {
+    font-size: 150px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_top {
+    top: 50px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_bottom {
+    top: -350px !important;
+  }
+  ._marquee_section .wrapper_img_card {
+    background-position: -500px !important;
+  }
+  ._marquee_section .wrapper_img_card .wrapper_img_card_content ._heading {
+    font-size: 55px !important;
+  }
+  ._section_2 ._section_card_heading {
+    font-size: 34px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel {
+    width: 550vw;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 {
+    padding: 3.5rem 4rem 3.5rem 6rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 ._firstImg img {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_2 .marquee ._gsap_marquee {
+    font-size: 105px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img {
+    padding: 3.5rem 5rem 3.5rem 4rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img img {
+    width: 600px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img {
+    padding: 3.5rem 6rem 3.5rem 6rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img ._center_2_img_parent {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video {
+    margin-right: 8rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video {
+    width: 900px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video video {
+    width: 900px;
+  }
+  ._section_about_doctor {
+    height: 150vh;
+  }
+  ._section_about_doctor ._doctor_img_container {
+    flex: 2.5 !important;
+  }
+  ._section_about_doctor ._doctor_img_container ._doctor_img {
+    transform: translateX(0);
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  ._section_about_doctor ._context ._section_heading {
+    font-size: 40px !important;
+  }
+  ._section_about_doctor ._context ._counters ._counter_number {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  ._header ._logo a ._js_navLogo {
+    width: 130px;
+  }
+  ._hero {
+    background-position: -1000px !important;
+  }
+  ._hero ._section_heading {
+    font-size: 45px !important;
+    padding: 0 0.75rem;
+  }
+  ._hero ._section_lead {
+    font-size: 16px !important;
+    font-weight: 100 !important;
+  }
+  ._hero ._button_container ._button {
+    padding: 0.75rem 1.5rem !important;
+  }
+  ._about ._about_title {
+    font-size: 15px;
+  }
+  ._about ._about_heading {
+    font-size: 36px !important;
+    padding: 0 0.5rem;
+  }
+  ._about ._about_doctor ._about_context ._name {
+    font-size: 20px !important;
+  }
+  ._about ._about_doctor ._about_context ._lead {
+    font-size: 12px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content {
+    font-size: 120px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_top {
+    top: 175px !important;
+  }
+  ._marquee_section ._marquee ._marquee_content._marquee_content_bottom {
+    top: -375px !important;
+  }
+  ._marquee_section .wrapper_img_card {
+    background-position: -800px !important;
+  }
+  ._marquee_section .wrapper_img_card .wrapper_img_card_content ._heading {
+    font-size: 45px !important;
+    padding: 0 0.75rem;
+  }
+  ._section_2 ._section_card_heading {
+    font-size: 24px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_first_panel_ {
+    background-position: -600px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel {
+    width: 550vw;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 {
+    padding: 3.5rem 4rem 3.5rem 6rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_1 ._firstImg img {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_2 .marquee ._gsap_marquee {
+    font-size: 105px !important;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img {
+    padding: 3.5rem 5rem 3.5rem 4rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._top_img img,
+._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._bottom_img img {
+    width: 600px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img {
+    padding: 3.5rem 6rem 3.5rem 6rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_2_img ._center_2_img_parent {
+    width: 500px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video {
+    margin-right: 8rem;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video {
+    width: 900px;
+  }
+  ._horizontal_scroll ._horizontal_scroll_container_panel ._figure._figure_3 ._center_video ._video video {
+    width: 900px;
+  }
+  ._section_about_doctor {
+    height: 150vh;
+  }
+  ._section_about_doctor ._doctor_img_container {
+    flex: 2.5 !important;
+  }
+  ._section_about_doctor ._doctor_img_container ._doctor_img {
+    transform: translateX(0);
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  ._section_about_doctor ._context ._section_heading {
+    font-size: 40px !important;
+  }
+  ._section_about_doctor ._context ._counters ._counter_number {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+  ._footer ._testimonials ._testimonials_text_content ._testimonials_lead {
+    font-size: 36px !important;
+  }
+  ._footer ._testimonials ._testimonials_buttons div {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  ._footer ._testimonials ._testimonials_text_content ._testimonials_lead {
+    font-size: 34px !important;
+  }
+  ._footer ._testimonials ._testimonials_buttons div {
+    height: 55px;
+    width: 55px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  ._footer ._testimonials ._testimonials_container {
+    max-width: 720px;
+  }
+  ._footer ._testimonials ._testimonials_container ._testimonials_col {
+    max-width: 720px;
+  }
+  ._footer ._testimonials ._testimonials_container ._testimonials_col ._testimonials_text_content ._testimonials_lead {
+    font-size: 26px !important;
+  }
+  ._footer ._testimonials ._testimonials_buttons div {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  ._footer ._testimonials ._testimonials_header img {
+    height: 75px;
+    width: 75px;
+  }
+  ._footer ._testimonials ._testimonials_container ._testimonials_row {
+    width: 500vw !important;
+  }
+  ._footer ._testimonials ._testimonials_container ._testimonials_col {
+    width: 100vw !important;
+  }
+  ._footer ._testimonials ._testimonials_container ._testimonials_col ._testimonials_text_content ._testimonials_lead {
+    font-size: 24px !important;
+  }
+  ._footer ._testimonials ._testimonials_container ._testimonials_col ._testimonials_text_content ._testimonials_lead span {
+    text-align: center;
+  }
+  ._footer ._testimonials ._testimonials_buttons div {
+    height: 50px;
+    width: 50px;
+  }
+  ._footer ._footer_section_horizontal {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin: auto;
+  }
+}/*# sourceMappingURL=responsive.css.map */

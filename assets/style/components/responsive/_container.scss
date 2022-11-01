@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    ._default_container {
+        max-width: 1366px;
+        padding: 0 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    ._default_container {
+        max-width: 1180px;
+        padding: 0 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    ._default_container {
+        max-width: 980px;
+        padding: 0 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    ._default_container {
+        max-width: 90%;
+        padding: 0 1.5rem;
+    }
+}

@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./assets/style/tailwind.style.css"> -->
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/components/responsive/responsive.css">
     <title>Project || </title>
 </head>
 <body style="background-color: #f1eae3;">
@@ -71,48 +73,47 @@
 
 
 
-    <!-- // >> Offcanvas start // -->
-    <div class="offCanva fixed top-0 left-0">
-        <div class="fixed left-0 top-0 w-full h-full flex">
-            <div class="offCanvaLeft"></div>
-            <div class="offCanvaRight" style="background: url(./assets/img/offcanva/offcanva.png);">
-                <!-- <img src="./assets/img/offcanva.png" alt=""> -->
-            </div>
+<!-- // >> Offcanvas start // -->
+<div class="offCanva fixed top-0 left-0">
+    <div class="fixed left-0 top-0 w-full h-full flex">
+        <div class="offCanvaLeft"></div>
+        <div class="offCanvaRight" style="background: url(./assets/img/offcanva/offcanva.png);">
         </div>
-        <div class="_offCanvaMenu">
-            <div class="_offCanvaLeftItem fixed top-0 left-0 w-full h-full">
-                <div class="_default_container h-full flex flex-col items-start justify-center px-3">
-                  <ul class="_links mb-20">
-                    <li><a id="offCanvaLink" data-cursor="-icon" class="link_1" href="/">Home</a></li>
-                    <li><a id="offCanvaLink" data-cursor="-icon" class="link_2 active" href="./aboutDr.html">Dr. Eduardo Raulino</a></li>
-                    <li><a id="offCanvaLink" data-cursor="-icon" class="link_3" href="./lipo.html">Lipo Ultra HD Ugraft</a></li>
-                    <li><a id="offCanvaLink" data-cursor="-icon" class="link_4" href="#">Agendar consulta</a></li>
-                  </ul>
-                  <div class="grid grid-cols-2">
-                    <div class="grid grid-cols-2 gap-5">
-                        <div class="_nav_address">
-                            <div class="_title">Atendimento</div>
-                            <ul>
-                                <li>(47) 99670-0099</li>
-                                <li>Seg - Sex, 08:00 - 17:00</li>
-                                <li>Fechado aos finais de semana</li>
-                            </ul>
-                        </div>
-                        <div class="_nav_address">
-                            <div class="_title">Consultorio Praia Brava</div>
-                            <ul>
-                                <li>Av. Osvaldo Reis, 3385</li>
-                                <li>Edificio Riviera concept, Sala 1807</li>
-                                <li>Praia Brava - Itajai (SC)</li>
-                            </ul>
-                        </div>
+    </div>
+    <div class="_offCanvaMenu">
+        <div class="_offCanvaLeftItem fixed top-0 left-0 w-full h-full">
+            <div class="_default_container h-full flex flex-col items-start justify-center px-3">
+                <ul class="_links mb-20">
+                <li><a id="offCanvaLink" data-cursor="-icon" class="link_1" href="/">Home</a></li>
+                <li><a id="offCanvaLink" data-cursor="-icon" class="link_2 active" href="./aboutDr.html">Dr. Eduardo Raulino</a></li>
+                <li><a id="offCanvaLink" data-cursor="-icon" class="link_3" href="./lipo.html">Lipo Ultra HD Ugraft</a></li>
+                <li><a id="offCanvaLink" data-cursor="-icon" class="link_4" href="#">Agendar consulta</a></li>
+                </ul>
+                <div class="grid grid-cols-2">
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="_nav_address">
+                        <div class="_title">Atendimento</div>
+                        <ul>
+                            <li>(47) 99670-0099</li>
+                            <li>Seg - Sex, 08:00 - 17:00</li>
+                            <li>Fechado aos finais de semana</li>
+                        </ul>
                     </div>
-                  </div>
+                    <div class="_nav_address">
+                        <div class="_title">Consultorio Praia Brava</div>
+                        <ul>
+                            <li>Av. Osvaldo Reis, 3385</li>
+                            <li>Edificio Riviera concept, Sala 1807</li>
+                            <li>Praia Brava - Itajai (SC)</li>
+                        </ul>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- // >> Offcanvas end // -->
+</div>
+<!-- // >> Offcanvas end // -->
 
 
 
@@ -120,21 +121,35 @@
 
 
 
-    <!-- // >> Header section start  -->
-        <div class="_main_nav flex items-center">
-            <div class="_default_container px-3 h-full w-full">
-                <div class="_main_nav_content">
-                    <div class="_burger">
-                        <div class="_burger_btn flex items-center justify-center">
-                            <div class="_burger_btn_icon">x</div>
-                        </div>
-                    </div>
-                    <div class="_logo">x</div>
-                    <div class="_lang_flag">x</div>
+ <!-- // >> Header section start  -->
+ <div class="_header fixed  left-0 right-0 flex items-center">
+    <div class="_default_container m-auto flex-1 px-3">
+        <div class="_header_content flex items-center justify-between">
+            <div class="_burger">
+                <button data-cursor="-icon" class="_btn_burger">
+                    <div class="_btn_burger_icon"></div>
+                </button>
+            </div>
+            <div class="_logo select-none">
+                <a data-cursor="-icon" href="/">
+                    <img class="_js_navLogo" src="./assets/img/logo/Logo Dr.png" alt="Raulino cirurgia plastica">
+                </a>
+            </div>
+            <div class="_country_flag hidden md:flex items-center">
+                <div class="_flag _flag_1 ml-2">
+                    <img data-cursor="-icon" src="./assets/img/flag/flag-1.png" alt="">
+                </div>
+                <div class="_flag _flag_2 ml-2">
+                    <img data-cursor="-icon" src="./assets/img/flag/flag-2.png" alt="">
+                </div>
+                <div class="_flag _flag_3 ml-2">
+                    <img data-cursor="-icon" src="./assets/img/flag/flag-3.png" alt="">
                 </div>
             </div>
         </div>
-    <!-- // >> Header section end  -->
+    </div>
+</div>
+<!-- // >> Header section end  -->
 
 
     <!-- // >> Hero showcase start  -->
@@ -142,7 +157,7 @@
         <div class="_default_container m-auto px-3 h-full text-white">
             <div class="_hero_content h-full w-full flex flex-col items-center justify-center">
                 <h3 id="quote" class="_section_title">Lipo UltraHD <span class="font-bold">Ugraft</span></h3>
-                <h1 class="_section_heading flex items-center flex-col">
+                <h1 class="_section_heading block md:flex md:items-center md:flex-col">
                     <span id="quote">Preparada para os</span>
                     <span id="quote">olhares de admiração?</span>
                 </h1>
@@ -162,10 +177,10 @@
     <!-- // >> About section Start ? -->
     <div class="_about">
         <div class="_default_container m-auto px-3">
-            <div class="_about_content py-48">
+            <div class="_about_content py-32 md:py-48">
                 <div class="flex items-center flex-col">
                     <span id="aboutSplitText" class="_about_title">Tecnica especializada em transformacao com <a data-cursor="-icon" class="underline" href="">aparencia natural,</a></span>
-                    <h1 class="_about_heading flex flex-col">
+                    <h1 class="_about_heading block md:flex md:flex-col">
                         <span id="aboutSplitText">Perfeitopara mulheres que querem se</span>
                         <span id="aboutSplitText">sentir mais atraentes em qualquer </span>
                         <span id="aboutSplitText">ambiente, em todos os momentos.</span>
@@ -200,7 +215,7 @@
             <div class="_default_container m-auto px-3">
                 <div class="wrapper_img_card" style="background: url(./assets/img/all/marqueeInner.png) no-repeat center center;">
                     <div class="wrapper_img_card_content py-72">
-                        <h1 class="_heading flex flex-col mb-6">
+                        <h1 class="_heading block md:flex md:flex-col mb-6">
                             <span id="marqueeSplitText">O corpo dos seus sonhos</span>
                             <span id="marqueeSplitText">está a um clique de você</span>
                         </h1>
@@ -228,7 +243,7 @@
                     <div class="_video_card w-full" style="background: url(./assets/img/home/video_thumb.png) no-repeat center center/cover;">
                         <div class="_overlay"></div>
                         <div class="_context h-full w-full flex items-center justify-center flex-col">
-                            <h1 class="_section_card_heading flex flex-col">
+                            <h1 class="_section_card_heading block lg:flex lg:flex-col">
                                 <span id="video_section_marquee_text" >Alipoaspiração Ugraft define sua</span>
                                 <span id="video_section_marquee_text" >musculatura, cria sombras e relevos</span>
                                 <span id="video_section_marquee_text" >e elimina o excesso de gordura</span>
@@ -296,21 +311,21 @@
             </section>
             <section class="_horizontal_scroll_container_panel panel-3"><h1>Panel 2</h1></section>
           </div>
-    </div>
+    </div> 
     <!-- // >> Horizontal Scroll End / -->
 
 
     <!-- // >> About doctor section start -->
-    <div class="_section_about_doctor relative h-screen">
-        <div class="flex items-center absolute left-0 right-0">
-            <div class="flex-1"></div>
-            <div class="flex-1">
-                <img class="_doctor_img  md:h-screen w-full" src="./assets/img/home/doctor-img.png" alt="">
+    <div class="_section_about_doctor relative lg:h-screen flex flex-col">
+        <div class="lg:flex lg:items-center lg:absolute lg:left-0 lg:right-0">
+            <div class="lg:flex-1"></div>
+            <div class="flex-1 _doctor_img_container ">
+                <img cl class="_doctor_img  md:h-screen w-full" src="./assets/img/home/doctor-img.png" alt="">
             </div>
         </div>
         <div class="_context relative h-full w-full">
             <div class="_default_container h-full m-auto px-3">
-                <div class="py-28 h-full">
+                <div class="lg:py-28 py-16 h-full">
                     <div class="h-full flex flex-col justify-center">
                         <div class="_section_about_title flex flex-col">
                             <span id="doctor_section_splitText">Dr Eduardo Raulino, Cirurgiao plastico membro da sociedade</span>
@@ -348,167 +363,168 @@
 
 
     <!-- // >> Footer Start /  -->
-    <footer class="_footer">
+    <footer class="_footer px-0 md:px-6">
 
-    <!-- // >> Tsttimonail section start ? -->
-    <div class="_testimonials pt-28 pb-3">
-        <div class="_default_container m-auto px-3">
-            <div class="_content">
-                <div class="_testimonials_header flex items-center justify-center mb-14">
-                    <img src="./assets/img/all/testimonials_header_logo.png" alt="">
-                </div>
-                <div class="_testimonials_container">
-                    <div class="_testimonials_content mb-20">
-                        <div class="_testimonials_row flex">
-                            <div class="_testimonials_col">
-                                <div class="_testimonials_text_content">
-                                    <div class="_testimonials_lead flex flex-col text-center">
-                                        <span>Tive um tratamento completamente indolor e</span>
-                                        <span>me recuperei com apenas 7 dias apos a</span>
-                                        <span>cirurgia, me sinto sinto uma nova mulher.</span>
+        <!-- // >> Tsttimonail section start ? -->
+        <div class="_testimonials pt-24 md:pt-28 pb-6  2xl:px-3">
+            <div class="max-w-screen-2xl m-auto md:px-3">
+                <div class="_content">
+                    <div class="_testimonials_header flex items-center justify-center mb-14">
+                        <img src="./assets/img/all/testimonials_header_logo.png" alt="">
+                    </div>
+                    <div class="_testimonials_container">
+                        <div class="_testimonials_content mb-8 md:mb-20">
+                            <div class="_testimonials_row flex">
+                                <div class="_testimonials_col">
+                                    <div class="_testimonials_text_content">
+                                        <div class="_testimonials_lead px-3 block md:flex md:flex-col text-center">
+                                            <span>Tive um tratamento completamente indolor e</span><span>me recuperei com apenas 7 dias apos a</span><span>cirurgia, me sinto sinto uma nova mulher.</span>
+                                        </div>
+                                        <div class="_testimonials_name text-center">
+                                            Ana Clara Nascimento, <span class="font-bold">Atriz</span>
+                                        </div>
                                     </div>
-                                    <div class="_testimonials_name text-center">
-                                        Ana Clara Nascimento, <span class="font-bold">Atriz</span>
+                                </div>
+                                <div class="_testimonials_col">
+                                    <div class="_testimonials_text_content">
+                                        <div class="_testimonials_lead flex flex-col text-center">
+                                            <span>Tive um tratamento completamente indolor e</span>
+                                            <span>me recuperei com apenas 7 dias apos a</span>
+                                            <span>cirurgia, me sinto sinto uma nova mulher.</span>
+                                        </div>
+                                        <div class="_testimonials_name text-center">
+                                            Ana Clara Nascimento, <span class="font-bold">Atriz</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="_testimonials_col">
+                                    <div class="_testimonials_text_content">
+                                        <div class="_testimonials_lead block md:flex md:flex-col text-center">
+                                            <span>Tive um tratamento completamente indolor e</span>
+                                            <span>me recuperei com apenas 7 dias apos a</span>
+                                            <span>cirurgia, me sinto sinto uma nova mulher.</span>
+                                        </div>
+                                        <div class="_testimonials_name text-center">
+                                            Ana Clara Nascimento, <span class="font-bold">Atriz</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="_testimonials_col">
+                                    <div class="_testimonials_text_content">
+                                        <div class="_testimonials_lead flex flex-col text-center">
+                                            <span>Tive um tratamento completamente indolor e</span>
+                                            <span>me recuperei com apenas 7 dias apos a</span>
+                                            <span>cirurgia, me sinto sinto uma nova mulher.</span>
+                                        </div>
+                                        <div class="_testimonials_name text-center">
+                                            Ana Clara Nascimento, <span class="font-bold">Atriz</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="_testimonials_col">
+                                    <div class="_testimonials_text_content">
+                                        <div class="_testimonials_lead flex flex-col text-center">
+                                            <span>Tive um tratamento completamente indolor e</span>
+                                            <span>me recuperei com apenas 7 dias apos a</span>
+                                            <span>cirurgia, me sinto sinto uma nova mulher.</span>
+                                        </div>
+                                        <div class="_testimonials_name text-center">
+                                            Ana Clara Nascimento, <span class="font-bold">Atriz</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="_testimonials_col">
-                                <div class="_testimonials_text_content">
-                                    <div class="_testimonials_lead flex flex-col text-center">
-                                        <span>Tive um tratamento completamente indolor e</span>
-                                        <span>me recuperei com apenas 7 dias apos a</span>
-                                        <span>cirurgia, me sinto sinto uma nova mulher.</span>
-                                    </div>
-                                    <div class="_testimonials_name text-center">
-                                        Ana Clara Nascimento, <span class="font-bold">Atriz</span>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="_testimonials_buttons flex items-center justify-center mb-16 md:mb-32 px-3">
+                            <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn  active h-16 w-16 bg-gray-600 rounded-full md:ml-3 md:mr-3 ml-2 mr-2 cursor-pointer flex items-center justify-center text-white font-medium">
+                                <img src="./assets/img/client/client_1.png" alt="">
                             </div>
-                            <div class="_testimonials_col">
-                                <div class="_testimonials_text_content">
-                                    <div class="_testimonials_lead flex flex-col text-center">
-                                        <span>Tive um tratamento completamente indolor e</span>
-                                        <span>me recuperei com apenas 7 dias apos a</span>
-                                        <span>cirurgia, me sinto sinto uma nova mulher.</span>
-                                    </div>
-                                    <div class="_testimonials_name text-center">
-                                        Ana Clara Nascimento, <span class="font-bold">Atriz</span>
-                                    </div>
-                                </div>
+                            <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full md:ml-3 md:mr-3 ml-2 mr-2 cursor-pointer flex items-center justify-center text-white font-medium">
+                                <img src="./assets/img/client/client_2.png" alt="">
                             </div>
-                            <div class="_testimonials_col">
-                                <div class="_testimonials_text_content">
-                                    <div class="_testimonials_lead flex flex-col text-center">
-                                        <span>Tive um tratamento completamente indolor e</span>
-                                        <span>me recuperei com apenas 7 dias apos a</span>
-                                        <span>cirurgia, me sinto sinto uma nova mulher.</span>
-                                    </div>
-                                    <div class="_testimonials_name text-center">
-                                        Ana Clara Nascimento, <span class="font-bold">Atriz</span>
-                                    </div>
-                                </div>
+                            <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full md:ml-3 md:mr-3 ml-2 mr-2 cursor-pointer flex items-center justify-center text-white font-medium">
+                                <img src="./assets/img/client/client_3.png" alt="">
                             </div>
-                            <div class="_testimonials_col">
-                                <div class="_testimonials_text_content">
-                                    <div class="_testimonials_lead flex flex-col text-center">
-                                        <span>Tive um tratamento completamente indolor e</span>
-                                        <span>me recuperei com apenas 7 dias apos a</span>
-                                        <span>cirurgia, me sinto sinto uma nova mulher.</span>
-                                    </div>
-                                    <div class="_testimonials_name text-center">
-                                        Ana Clara Nascimento, <span class="font-bold">Atriz</span>
-                                    </div>
-                                </div>
+                            <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full md:ml-3 md:mr-3 ml-2 mr-2 cursor-pointer flex items-center justify-center text-white font-medium">
+                                <img src="./assets/img/client/client_4.png" alt="">
+                            </div>
+                            <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full md:ml-3 md:mr-3 ml-2 mr-2 cursor-pointer flex items-center justify-center text-white font-medium">
+                                <img src="./assets/img/client/client_5.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="_testimonials_buttons flex items-center justify-center mb-32">
-                        <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn  active h-16 w-16 bg-gray-600 rounded-full ml-3 mr-3 cursor-pointer flex items-center justify-center text-white font-medium">
-                            <img src="./assets/img/client/client_1.png" alt="">
-                        </div>
-                        <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full ml-3 mr-3 cursor-pointer flex items-center justify-center text-white font-medium">
-                            <img src="./assets/img/client/client_2.png" alt="">
-                        </div>
-                        <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full ml-3 mr-3 cursor-pointer flex items-center justify-center text-white font-medium">
-                            <img src="./assets/img/client/client_3.png" alt="">
-                        </div>
-                        <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full ml-3 mr-3 cursor-pointer flex items-center justify-center text-white font-medium">
-                            <img src="./assets/img/client/client_4.png" alt="">
-                        </div>
-                        <div data-cursor="-icon" class="_js_testimonials_btn _testimonial_btn h-16 w-16 bg-gray-600 rounded-full ml-3 mr-3 cursor-pointer flex items-center justify-center text-white font-medium">
-                            <img src="./assets/img/client/client_5.png" alt="">
-                        </div>
-                    </div>
-                    <hr class="_footer_section_horizontal">
                 </div>
             </div>
         </div>
-    </div>
-    <!-- // >> Tsttimonail section End ? -->
-
-    <!-- // >> Roulino start ? -->
-    <div class="_roulino">
-        <div class="_default_container m-auto px-3">
-            <div class="_roulino_context flex flex-col items-center justify-center  py-14">
-                <div class="_logo mb-10">
-                    <img src="./assets/img/logo/Logo Dr.png" alt="">
-                </div>
-                <div class="_text flex flex-col text-center">
-                    <span>A Clinica Raulino conta com alguns dos melhores cirugioes plasticos da brasil, que utilisam os</span>
-                    <span>equipaments da mains alta qualidade para garantir a sua seguranca.</span>
-                </div>
-            </div>
-        </div>
+        <!-- // >> Tsttimonail section End ? -->
         <div class="_custome_footer_container">
             <hr class="_footer_section_horizontal">
         </div>
-    </div>
-    <!-- // >> Roulino End ? -->
-
-    <!-- // >> footer Address start / -->
-    <div class="_footer_address">
-        <div class="_default_container m-auto px-3">
-          <div class="_custome_footer_container">
-            <div class="grid grid-cols-2 gap-5 md:gap-2 py-14 items-start">
-                <div>
-                    <div class="_title">Atendimento</div>
-                    <ul>
-                        <li>(47) 99670-0099</li>
-                        <li>Seg - Sex, 08:00 - 17:00</li>
-                        <li>Fechado aos finais de semana</li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="_title">Consultorio Praia Brava</div>
-                    <ul>
-                        <li>Av. Osvaldo Reis, 3385</li>
-                        <li>Edificio Riviera concept, Sala 1807</li>
-                        <li>Praia Brava - Itajai (SC)</li>
-                    </ul>
+        <!-- // >> Roulino start ? -->
+        <div class="_roulino">
+            <div class="max-w-screen-2xl m-auto px-3">
+                <div class="_roulino_context flex flex-col items-center justify-center  py-14">
+                    <div class="_logo mb-10">
+                        <img src="./assets/img/logo/Logo Dr.png" alt="">
+                    </div>
+                    <div class="_text flex flex-col text-center">
+                        <span>A Clinica Raulino conta com alguns dos melhores cirugioes plasticos da brasil, que utilisam os</span>
+                        <span>equipaments da mains alta qualidade para garantir a sua seguranca.</span>
+                    </div>
                 </div>
             </div>
+            <div class="_custome_footer_container">
+                <hr class="_footer_section_horizontal">
+            </div>
+        </div>
+        <!-- // >> Roulino End ? -->
+
+        <!-- // >> footer Address start / -->
+        <div class="_footer_address">
+            <div class="max-w-screen-2xl m-auto px-0 md:px-3">
+            <div class="_custome_footer_container">
+                <div class="grid grid-cols-2 gap-5 md:gap-2 py-14">
+                    <div>
+                        <div class="_title">Atendimento</div>
+                        <ul>
+                            <li>(47) 99670-0099</li>
+                            <li>Seg - Sex, 08:00 - 17:00</li>
+                            <li>Fechado aos finais de semana</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="_title">Consultorio Praia Brava</div>
+                        <ul>
+                            <li>Av. Osvaldo Reis, 3385</li>
+                            <li>Edificio Riviera concept, Sala 1807</li>
+                            <li>Praia Brava - Itajai (SC)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- // >> footer address end / -->
+        <div class="_custome_footer_container">
             <hr class="_footer_section_horizontal">
-          </div>
         </div>
-    </div>
-    <!-- // >> footer address end / -->
-
-    <!-- // >> footer social start / -->
-    <div class="_footer_social py-20">
-        <div class="_default_container m-auto px-3">
-            <div class="flex items-center justify-center">
-                <a data-cursor="-icon" href="#" class="flex items-center justify-center h-16 w-16 p-1 mx-4">
-                    <img src="./assets/img/social/facebook.png" alt="">
-                </a>
-                <a data-cursor="-icon" href="#" class="flex items-center justify-center h-16 w-16 p-1 mx-4">
-                    <img src="./assets/img/social/instagram.png" alt="">
-                </a>
+        <!-- // >> footer social start / -->
+        <div class="_footer_social py-20">
+            <div class="max-w-screen-2xl m-auto px-3">
+                <div class="flex items-center justify-center">
+                    <a data-cursor="-icon" href="#" class="flex items-center justify-center h-16 w-16 p-1 mx-4">
+                        <img src="./assets/img/social/facebook.png" alt="">
+                    </a>
+                    <a data-cursor="-icon" href="#" class="flex items-center justify-center h-16 w-16 p-1 mx-4">
+                        <img src="./assets/img/social/instagram.png" alt="">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- // >> footer social end / -->
+        <!-- // >> footer social end / -->
 
     </footer>
+
 
 
 
@@ -542,9 +558,9 @@
     <!-- // From All / -->
     <script src="./assets/js/components/all/cursor.js"></script>
     <script src="./assets/js/components/all/loading.js"></script>
-    <!-- <script src="./assets/js/components/all/offcanva.js"></script> -->
+    <script src="./assets/js/components/all/offcanva.js"></script>
     <script src="./assets/js/components/all/heroCircleLogoTween.js"></script>
-    <!-- <script src="./assets/js/components/all/hideSomthingScrollPosition.js"></script> -->
+    <script src="./assets/js/components/all/hideSomthingScrollPosition.js"></script>
     <script src="./assets//js/components//all/wrapperImgScale.js"></script>
     <script src="./assets//js/components//all/testimonial.js"></script>
     

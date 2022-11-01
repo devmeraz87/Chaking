@@ -1,0 +1,779 @@
+// >> XL ...>>
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+
+    ._header {
+
+        ._logo {
+            a {
+                ._js_navLogo {
+                    width: 190px;
+                }
+            }
+        }
+    }
+
+    // >> header
+    ._hero {
+
+        ._section_title {
+
+        }
+        
+        ._section_heading {
+            font-size: 60px !important;
+        }
+
+        ._section_lead {
+            font-size: 17px !important;
+        }
+    }
+
+
+    // >> About 
+    ._about {
+
+        ._about_heading {
+            font-size: 50px !important;
+        }
+    }
+
+
+    ._marquee_section {
+
+
+        ._marquee {
+
+            ._marquee_content {
+                font-size: 200px !important;
+
+                &._marquee_content_top {
+                    top: 0 !important;
+                }
+
+                &._marquee_content_bottom {
+                    top: -370px !important;
+                }
+            }
+        }
+
+        .wrapper_img_card {
+
+
+            .wrapper_img_card_content {
+
+
+                ._heading {
+                    font-size: 55px !important;
+                }
+            }
+        }
+    }
+
+    ._section_2 {
+
+        ._section_card_heading {
+            font-size: 55px !important;
+        }
+    }
+
+
+    // >> Horizontal scroll
+    ._horizontal_scroll {
+
+
+        ._horizontal_scroll_container_first_panel_ {
+            transform: scale(2.2) translateY(268px) !important;
+        }
+
+        ._horizontal_scroll_container_panel {
+            width: 345vw;
+
+            ._figure {
+
+               &._figure_1 {
+                     // >> in figure //
+                     padding: 5rem 5rem 5rem 8rem;
+
+                     ._firstImg {
+                        img {
+                            width: 500px;
+                        }
+                    } 
+               } 
+
+               &._figure_2 {
+
+                    .marquee {
+
+                        ._gsap_marquee {
+                            font-size: 120px !important;
+                        }
+                    }
+               }
+
+               &._figure_3 {
+
+                    ._top_img,
+                    ._bottom_img {
+                        padding: 4rem 6rem 4rem 4rem;
+
+                        img {
+                            width: 600px;
+                        }
+                    }
+
+                    ._center_2_img {
+                        padding: 5rem 8rem 5rem 8rem;
+
+                        ._center_2_img_parent {
+                            width: 500px;
+                        }
+                    }
+
+                    ._center_video {
+                        margin-right: 8rem;
+
+                        ._video {
+                            width: 1000px;
+
+                            video {
+                                width: 1000px;
+                            }
+                        }
+                    }
+               }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+
+
+        ._doctor_img_container {
+            flex: 1.5 !important;
+
+            ._doctor_img {
+
+            }
+        }
+
+        ._context {
+
+
+            ._section_about_title{
+
+
+            }
+
+            ._section_heading {
+                font-size: 55px !important;
+            }
+
+            ._counters {
+                ._counter_number {
+                    font-size: 50px !important;
+                }
+            }
+        }
+    }
+}
+
+
+// >> LG ...>>
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+    ._header {
+
+        ._logo {
+            a {
+                ._js_navLogo {
+                    width: 190px;
+                }
+            }
+        }
+    }
+
+    // >> header
+    ._hero {
+
+        ._section_title {
+
+        }
+        
+        ._section_heading {
+            font-size: 60px !important;
+        }
+
+        ._section_lead {
+            font-size: 17px !important;
+        }
+    }
+
+
+    // >> About 
+    ._about {
+
+        ._about_heading {
+            font-size: 50px !important;
+        }
+    }
+
+
+    ._marquee_section {
+
+
+        ._marquee {
+
+            ._marquee_content {
+                font-size: 165px !important;
+
+                &._marquee_content_top {
+                    top: 50px !important;
+                }
+
+                &._marquee_content_bottom {
+                    top: -350px !important;
+                }
+            }
+        }
+
+        .wrapper_img_card {
+            background-position: -400px !important;
+
+
+            .wrapper_img_card_content {
+
+
+                ._heading {
+                    font-size: 55px !important;
+                }
+            }
+        }
+    }
+
+    ._section_2 {
+
+        ._section_card_heading {
+            font-size: 42px !important;
+        }
+    }
+
+
+    // >> Horizontal scroll
+    ._horizontal_scroll {
+
+
+        ._horizontal_scroll_container_first_panel_ {
+
+        }
+
+        ._horizontal_scroll_container_panel {
+            width: 442vw;
+
+            ._figure {
+
+               &._figure_1 {
+                     // >> in figure //
+                     padding: 3.5rem 4rem 3.5rem 6rem;
+
+                     ._firstImg {
+                        img {
+                            width: 500px;
+                        }
+                    } 
+               } 
+
+               &._figure_2 {
+
+                    .marquee {
+
+                        ._gsap_marquee {
+                            font-size: 105px !important;
+                        }
+                    }
+               }
+
+               &._figure_3 {
+
+                    ._top_img,
+                    ._bottom_img {
+                        padding: 3.5rem 5rem 3.5rem 4rem;
+
+                        img {
+                            width: 600px;
+                        }
+                    }
+
+                    ._center_2_img {
+                        padding: 3.5rem 6rem 3.5rem 6rem;
+
+                        ._center_2_img_parent {
+                            width: 500px;
+                        }
+                    }
+
+                    ._center_video {
+                        margin-right: 8rem;
+
+                        ._video {
+                            width: 900px;
+
+                            video {
+                                width: 900px;
+                            }
+                        }
+                    }
+               }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+
+
+        ._doctor_img_container {
+            flex: 2.5 !important;
+
+            ._doctor_img {
+                transform: translateX(55px);
+            }
+        }
+
+        ._context {
+
+
+            ._section_about_title{
+
+
+            }
+
+            ._section_heading {
+                font-size: 50px !important;
+            }
+
+            ._counters {
+
+                ._counter_number {
+                    font-size: 45px !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+// >> MD ...>>
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    ._header {
+
+        ._logo {
+            a {
+                ._js_navLogo {
+                    width: 130px;
+                }
+            }
+        }
+    }
+
+    // >> header
+    ._hero {
+        background-position: -600px !important;
+
+        ._section_title {
+
+        }
+        
+        ._section_heading {
+            font-size: 46px !important;
+        }
+
+        ._section_lead {
+            font-size: 16px !important;
+        }
+    }
+
+
+    // >> About 
+    ._about {
+
+        ._about_heading {
+            font-size: 36px !important;
+        }
+    }
+
+
+    ._marquee_section {
+
+
+        ._marquee {
+
+            ._marquee_content {
+                font-size: 150px !important;
+
+                &._marquee_content_top {
+                    top: 50px !important;
+                }
+
+                &._marquee_content_bottom {
+                    top: -350px !important;
+                }
+            }
+        }
+
+        .wrapper_img_card {
+            background-position: -500px !important;
+
+
+            .wrapper_img_card_content {
+
+
+                ._heading {
+                    font-size: 55px !important;
+                }
+            }
+        }
+    }
+
+    ._section_2 {
+
+        ._section_card_heading {
+            font-size: 34px !important;
+        }
+    }
+
+
+    // >> Horizontal scroll
+    ._horizontal_scroll {
+
+
+        ._horizontal_scroll_container_first_panel_ {
+
+        }
+
+        ._horizontal_scroll_container_panel {
+            width: 550vw;
+
+            ._figure {
+
+               &._figure_1 {
+                     // >> in figure //
+                     padding: 3.5rem 4rem 3.5rem 6rem;
+
+                     ._firstImg {
+                        img {
+                            width: 500px;
+                        }
+                    } 
+               } 
+
+               &._figure_2 {
+
+                    .marquee {
+
+                        ._gsap_marquee {
+                            font-size: 105px !important;
+                        }
+                    }
+               }
+
+               &._figure_3 {
+
+                    ._top_img,
+                    ._bottom_img {
+                        padding: 3.5rem 5rem 3.5rem 4rem;
+
+                        img {
+                            width: 600px;
+                        }
+                    }
+
+                    ._center_2_img {
+                        padding: 3.5rem 6rem 3.5rem 6rem;
+
+                        ._center_2_img_parent {
+                            width: 500px;
+                        }
+                    }
+
+                    ._center_video {
+                        margin-right: 8rem;
+
+                        ._video {
+                            width: 900px;
+
+                            video {
+                                width: 900px;
+                            }
+                        }
+                    }
+               }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+        height: 150vh;
+
+        ._doctor_img_container {
+            flex: 2.5 !important;
+
+            ._doctor_img {
+                transform: translateX(0);
+                max-width: 500px;
+                height: auto;
+                margin: auto;
+                margin-top: 5rem;
+            }
+        }
+
+        ._context {
+
+            ._section_about_title{
+
+
+            }
+
+            ._section_heading {
+                font-size: 40px !important;
+            }
+
+            ._counters {
+
+                ._counter_number {
+                    font-size: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+// >> SM ... >> 
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    ._header {
+
+        ._logo {
+            a {
+                ._js_navLogo {
+                    width: 130px;
+                }
+            }
+        }
+    }
+
+    // >> header
+    ._hero {
+        background-position: -1000px !important;
+
+        ._section_title {
+
+        }
+        
+        ._section_heading {
+            font-size: 45px !important;
+            padding: 0 0.75rem;
+        }
+
+        ._section_lead {
+            font-size: 16px !important;
+            font-weight: 100 !important;
+        }
+
+        ._button_container {
+            ._button {
+                padding: 0.75rem 1.5rem !important;
+            }
+        }
+    }
+
+
+    // >> About 
+    ._about {
+
+        ._about_title {
+            font-size: 15px;
+        }
+
+        ._about_heading {
+            font-size: 36px !important;
+            padding: 0 0.5rem;
+        }
+
+        ._about_doctor {
+
+
+            ._img_container {
+                
+
+            }
+
+            ._about_context {
+                ._name {
+                    font-size: 20px !important;
+                }
+
+                ._lead {
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+
+
+    ._marquee_section {
+
+
+        ._marquee {
+
+            ._marquee_content {
+                font-size: 120px !important;
+
+                &._marquee_content_top {
+                    top: 175px !important;
+                }
+
+                &._marquee_content_bottom {
+                    top: -375px !important;
+                }
+            }
+        }
+
+        .wrapper_img_card {
+            background-position: -800px !important;
+
+
+            .wrapper_img_card_content {
+
+
+                ._heading {
+                    font-size: 45px !important;
+                    padding: 0 0.75rem;
+                }
+            }
+        }
+    }
+
+    ._section_2 {
+
+        ._section_card_heading {
+            font-size: 24px !important;
+        }
+    }
+
+
+    // >> Horizontal scroll
+    ._horizontal_scroll {
+
+
+        ._horizontal_scroll_container_first_panel_ {
+            background-position: -600px !important;
+        }
+
+        ._horizontal_scroll_container_panel {
+            width: 550vw;
+
+            ._figure {
+
+               &._figure_1 {
+                     // >> in figure //
+                     padding: 3.5rem 4rem 3.5rem 6rem;
+
+                     ._firstImg {
+                        img {
+                            width: 500px;
+                        }
+                    } 
+               } 
+
+               &._figure_2 {
+
+                    .marquee {
+
+                        ._gsap_marquee {
+                            font-size: 105px !important;
+                        }
+                    }
+               }
+
+               &._figure_3 {
+
+                    ._top_img,
+                    ._bottom_img {
+                        padding: 3.5rem 5rem 3.5rem 4rem;
+
+                        img {
+                            width: 600px;
+                        }
+                    }
+
+                    ._center_2_img {
+                        padding: 3.5rem 6rem 3.5rem 6rem;
+
+                        ._center_2_img_parent {
+                            width: 500px;
+                        }
+                    }
+
+                    ._center_video {
+                        margin-right: 8rem;
+
+                        ._video {
+                            width: 900px;
+
+                            video {
+                                width: 900px;
+                            }
+                        }
+                    }
+               }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+        height: 150vh;
+
+        ._doctor_img_container {
+            flex: 2.5 !important;
+
+            ._doctor_img {
+                transform: translateX(0);
+                max-width: 350px;
+                height: auto;
+                margin: auto;
+                margin-top: 5rem;
+            }
+        }
+
+        ._context {
+
+            ._section_about_title{
+
+
+            }
+
+            ._section_heading {
+                font-size: 40px !important;
+            }
+
+            ._counters {
+
+                ._counter_number {
+                    font-size: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+
+// >> EXTRA SMALL IF NEED
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    
+}
